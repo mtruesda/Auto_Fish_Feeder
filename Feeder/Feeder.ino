@@ -3,7 +3,16 @@ void setup() {
 
 }
 
+void feed() {
+
+
+}
+
 void loop() {
   // put your main code here, to run repeatedly:
 
+  // run once a day
+  delay(8600000)
+
+  feed();
 }
